@@ -24,8 +24,7 @@ class Tamagochi{
 
     boolean acoes(String acao){
 
-        if(!acao.equals("brincar")&&!acao.equals("dormir")&&!acao.equals("mostrar")&&
-               !acao.equals("comer")&&!acao.equals("banhar")&&!acao.equals("fim")){
+        if(!acao.equals("comer")&&!acao.equals("banhar")&&!acao.equals("end")&&!acao.equals("brincar")&&!acao.equals("dormir")&&!acao.equals("mostrar")){
 
                 return false;
         }
